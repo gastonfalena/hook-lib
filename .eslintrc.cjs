@@ -27,6 +27,7 @@ module.exports = {
         "simple-import-sort/exports":"error",
         "no-console":"warn",
         "@typescript-eslint/no-explicit-any":"error",
+        "@typescript-eslint/no-non-null-assertion": "off",
         "no-unused-vars":"warn"
     }
 }

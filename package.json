@@ -10,11 +10,16 @@
     "lint:fix": "npm run lint --fix",
     "check:types": "tsc --noEmit",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "vitest --coverage",
+    "test:watch": "vitest --watch"
   },
   "dependencies": {
+    "@testing-library/dom": "^10.3.1",
+    "@testing-library/react": "^16.0.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vitest": "^2.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
@@ -33,6 +38,7 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "husky": "^8.0.0",
+    "jsdom": "^24.1.0",
     "lint-staged": "^15.2.7",
     "typescript": "*",
     "vite": "^5.3.1",
